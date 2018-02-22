@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headerWidth">40dp</dimen>
+    <dimen name="cellWidth">80dp</dimen>
+    <dimen name="headerHeight">60dp</dimen>
+</resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="@dimen/headerWidth"
+            android:layout_height="@dimen/headerHeight"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:text="Coins"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="@dimen/headerWidth"
+            android:layout_height="@dimen/headerHeight"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="Last Price"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="@dimen/headerWidth"
+            android:layout_height="@dimen/headerHeight"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="Minimum"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="@dimen/headerWidth"
+            android:layout_height="@dimen/headerHeight"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="Maximum"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:typeface="monospace" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="ETH" />
+
+        <TextView
+            android:id="@+id/ethLastId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.00" />
+
+        <TextView
+            android:id="@+id/ethMinId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+        <TextView
+            android:id="@+id/ethMaxId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="BTC" />
+
+        <TextView
+            android:id="@+id/btcLastId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.00" />
+
+        <TextView
+            android:id="@+id/btcMinId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+        <TextView
+            android:id="@+id/btcMaxId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="LTC" />
+
+        <TextView
+            android:id="@+id/ltcLastId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.00" />
+
+        <TextView
+            android:id="@+id/ltcMinId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+        <TextView
+            android:id="@+id/ltcMaxId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="XRP" />
+
+        <TextView
+            android:id="@+id/xrpLastId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.00" />
+
+        <TextView
+            android:id="@+id/xrpMinId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+        <TextView
+            android:id="@+id/xrpMaxId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="BCH" />
+
+        <TextView
+            android:id="@+id/bchLastId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.00" />
+
+        <TextView
+            android:id="@+id/bchMinId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+        <TextView
+            android:id="@+id/bchMaxId"
+            android:layout_width="@dimen/cellWidth"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="50000.0" />
+
+    </TableRow>
+
+</TableLayout>
